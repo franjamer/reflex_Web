@@ -37,5 +37,30 @@ PS C:\Users\fcoja\almacen_reflex\ent_vir_reflex> Scripts\activate(ejecutamos est
 
 (ent_vir_reflex) PS C:\Users\fcoja\almacen_reflex\ent_vir_reflex> (ya estamos en nuestro entorno virtual)
 
+(ent_vir_reflex) PS C:\Users\fcoja\almacen_reflex\ent_vir_reflex> cd.. (salimos del directorio del entorno virtual)
+
+(ent_vir_reflex) PS C:\Users\fcoja\almacen_reflex> reflex run (ejecutamos reflex dentro de nuestro entorno virtual)
+
+Las siguientes lineas muestran datos de la ejecución de la aplicacion, así como la dirección y puerto donde se verán dentro del navegador.
+
+Warning: Windows Subsystem for Linux (WSL) is recommended for improving initial install times.
+Info: The frontend will run on port 3001.
+Info: The backend will run on port 8001.
+Info: Overriding config value frontend_port with env var FRONTEND_PORT=3001
+Info: Overriding config value backend_port with env var BACKEND_PORT=8001
+────────────────────────────────────────── Starting Reflex App ──────────────────────────────────────────
+[09:32:23] Compiling: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 13/13 0:00:00
+Invalid XSL format (or) file name.
+The command `wmic cpu get addresswidth,caption,manufacturer /FORMAT:csv` failed with error: Command 'wmiccpu get addresswidth,caption,manufacturer /FORMAT:csv' returned non-zero exit status 44210.. This will     
+return None.
+────────────────────────────────────────────── App Running ──────────────────────────────────────────────Info: Overriding config value frontend_port with env var FRONTEND_PORT=3001
+Info: Overriding config value backend_port with env var BACKEND_PORT=8001
+App running at: http://localhost:3001
+Backend running at: http://0.0.0.0:8001
+Invalid XSL format (or) file name.
+The command `wmic cpu get addresswidth,caption,manufacturer /FORMAT:csv` failed with error: Command 'wmic 
+cpu get addresswidth,caption,manufacturer /FORMAT:csv' returned non-zero exit status 44210.. This will 
+return None.
+
 
 
