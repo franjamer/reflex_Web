@@ -28,7 +28,14 @@ Get started with a template:
 Which template would you like to use? (0): 0
 [08:45:26] Initializing the app directory.                                        console.py:104
 Success: Initialized almacen_reflex
+
 PS C:\Users\fcoja\almacen_reflex> py -m ent_vir_reflex (para crear un entorno virtual donde se trabajará en la aplicación)
-PS C:\Users\fcoja\almacen_reflex> cd ent_vir_reflex  (entramos en el directorio principal del entorno virtual)                                           
-PS C:\Users\fcoja\almacen_reflex\ent_vir_reflex> cd stripts(entramos en esta carpeta)
+
+PS C:\Users\fcoja\almacen_reflex> cd ent_vir_reflex  (entramos en el directorio principal del entorno virtual)
+
+PS C:\Users\fcoja\almacen_reflex\ent_vir_reflex> Scripts\activate(ejecutamos este comando)
+
+(ent_vir_reflex) PS C:\Users\fcoja\almacen_reflex\ent_vir_reflex> (ya estamos en nuestro entorno virtual)
+
+
 
